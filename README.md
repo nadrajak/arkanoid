@@ -1,6 +1,6 @@
 
 # arkanoid
-SDL2 clone of the classic 1986 arcade game *Arkanoid* by Taito written as a final project for the Programming and Algorithmics 2 course at FIT CTU.
+SDL2 clone of the classic 1986 arcade game *Arkanoid* by Taito written in C++ as a final project for the Programming and Algorithmics 2 course at FIT CTU.
 
 ## Demo
 <img src="https://github.com/nadrajak/arkanoid/blob/main/demo.gif" alt="Demo gif" width="100%"/>
@@ -15,8 +15,7 @@ You control a paddle at the bottom of the screen, bouncing a ball to break brick
 - `[A]`/`[D]` to move the paddle
 - `[SPACE]` to launch a ball
 
-## Installation
-
+## Building
 ### Prerequisites
 - C++ compiler with C++14 support
 - SDL2, SDL2_ttf development libraries
@@ -24,9 +23,8 @@ You control a paddle at the bottom of the screen, bouncing a ball to break brick
 
 On Ubuntu/Debian you can install the prerequisites using:
 ```bash
-sudo apt-get install libsdl2-dev libsdl2-ttf-dev build-essential
+sudo apt-get install build-essential libsdl2-dev libsdl2-ttf-dev 
 ```
-
 ### Build & Run
 ```bash
 cd arkanoid
