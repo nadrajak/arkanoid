@@ -15,7 +15,7 @@ You control a paddle at the bottom of the screen, bouncing a ball to break brick
 - `[A]`/`[D]` to move the paddle
 - `[SPACE]` to launch a ball
 
-## Building
+## Setup
 ### Prerequisites
 - C++ compiler with C++14 support
 - SDL2, SDL2_ttf development libraries
@@ -25,8 +25,14 @@ On Ubuntu/Debian you can install the prerequisites using:
 ```bash
 sudo apt-get install build-essential libsdl2-dev libsdl2-ttf-dev 
 ```
-### Build & Run
-```bash
-cd arkanoid
-make run
-```
+
+### Running
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/nadrajak/arkanoid.git
+    cd arkanoid
+    ```
+2.  **Build & Run:**
+    ```bash
+    make run
+    ```
